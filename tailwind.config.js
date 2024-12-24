@@ -1,4 +1,4 @@
-import CONFIG from './gitprofile.config';
+import CONFIG from './wills-site.config';
 
 /** @type {import('tailwindcss').Config} */
 export default {

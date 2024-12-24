@@ -1,9 +1,9 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
-import GitProfile from './components/gitprofile.tsx';
+import WillsSite from './components/wills-site.tsx';
 
 ReactDOM.createRoot(document.getElementById('root')!).render(
   <React.StrictMode>
-    <GitProfile config={CONFIG} />
+    <WillsSite config={CONFIG} />
   </React.StrictMode>,
 );
