@@ -91,6 +91,42 @@ const ListItem: React.FC<{
   );
 };
 
+const ListItemUnder: React.FC<{
+  icon: React.ReactNode;
+  title: React.ReactNode;
+  value: React.ReactNode;
+  link?: string;
+  skeleton?: boolean;
+}> = ({ icon, title, value, link, skeleton = false }) => {
+  return (
+    <div className="flex justify-start py-2 px-1 items-center">
+      <div className="flex-grow font-medium gap-2 flex items-center my-1">
+        {icon} {title}
+      </div>
+      <div
+        className={`${
+          skeleton ? 'flex-grow' : ''
+        } text-sm font-normal text-right mr-2 ml-3 ${link ? 'truncate' : ''}`}
+        style={{
+          wordBreak: 'break-word',
+          textDecoration: 'underline',
+          // fontStyle: 'italic',
+          color: '#4287f5',
+        }}
+      >
+        <a
+          href={link}
+          target="_blank"
+          rel="noreferrer"
+          className="flex justify-start py-2 px-1 items-center"
+        >
+          {value}
+        </a>
+      </div>
+    </div>
+  );
+};
+
 const OrganizationItem: React.FC<{
   icon: React.ReactNode;
   title: React.ReactNode;
@@ -196,7 +232,7 @@ const DetailsCard = ({ profile, loading, social, github }: Props) => {
                   }
                 />
               )}
-              <ListItem
+              <ListItemUnder
                 icon={<AiFillGithub />}
                 title="GitHub:"
                 value={github.username}
@@ -227,7 +263,7 @@ const DetailsCard = ({ profile, loading, social, github }: Props) => {
                 />
               )}
               {social?.linkedin && (
-                <ListItem
+                <ListItemUnder
                   icon={<FaLinkedin />}
                   title="LinkedIn:"
                   value={social.linkedin}
@@ -323,9 +359,9 @@ const DetailsCard = ({ profile, loading, social, github }: Props) => {
                 />
               )}
               {social?.website && (
-                <ListItem
+                <ListItemUnder
                   icon={<FaGlobe />}
-                  title="Website:"
+                  title="Old website:"
                   value={social.website
                     .replace('https://', '')
                     .replace('http://', '')}
@@ -361,7 +397,7 @@ const DetailsCard = ({ profile, loading, social, github }: Props) => {
                 />
               )}
               {social?.email && (
-                <ListItem
+                <ListItemUnder
                   icon={<RiMailFill />}
                   title="Email:"
                   value={social.email}

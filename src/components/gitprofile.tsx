@@ -21,15 +21,13 @@ import AvatarCard from './avatar-card';
 import { Profile } from '../interfaces/profile';
 import DetailsCard from './details-card';
 import SkillCard from './skill-card';
-import ExperienceCard from './experience-card';
 import EducationCard from './education-card';
-import CertificationCard from './certification-card';
 import { GithubProject } from '../interfaces/github-project';
 import GithubProjectCard from './github-project-card';
-import ExternalProjectCard from './external-project-card';
-import BlogCard from './blog-card';
+import ResearchCard from './external-project-card';
+// import BlogCard from './blog-card';
 import Footer from './footer';
-import PublicationCard from './publication-card';
+import WorkCard from './publication-card';
 
 /**
  * Renders the GitProfile component.
@@ -218,34 +216,28 @@ const GitProfile = ({ config }: { config: Config }) => {
                       github={sanitizedConfig.github}
                       social={sanitizedConfig.social}
                     />
-                    {sanitizedConfig.skills.length !== 0 && (
-                      <SkillCard
-                        loading={loading}
-                        skills={sanitizedConfig.skills}
-                      />
-                    )}
-                    {sanitizedConfig.experiences.length !== 0 && (
-                      <ExperienceCard
-                        loading={loading}
-                        experiences={sanitizedConfig.experiences}
-                      />
-                    )}
-                    {sanitizedConfig.certifications.length !== 0 && (
-                      <CertificationCard
-                        loading={loading}
-                        certifications={sanitizedConfig.certifications}
-                      />
-                    )}
                     {sanitizedConfig.educations.length !== 0 && (
                       <EducationCard
                         loading={loading}
                         educations={sanitizedConfig.educations}
                       />
                     )}
+                    {sanitizedConfig.skills.length !== 0 && (
+                      <SkillCard
+                        loading={loading}
+                        skills={sanitizedConfig.skills}
+                      />
+                    )}
                   </div>
                 </div>
                 <div className="lg:col-span-2 col-span-1">
                   <div className="grid grid-cols-1 gap-6">
+                    {sanitizedConfig.publications.length !== 0 && (
+                      <WorkCard
+                        loading={loading}
+                        publications={sanitizedConfig.publications}
+                      />
+                    )}
                     {sanitizedConfig.projects.github.display && (
                       <GithubProjectCard
                         header={sanitizedConfig.projects.github.header}
@@ -256,15 +248,9 @@ const GitProfile = ({ config }: { config: Config }) => {
                         googleAnalyticsId={sanitizedConfig.googleAnalytics.id}
                       />
                     )}
-                    {sanitizedConfig.publications.length !== 0 && (
-                      <PublicationCard
-                        loading={loading}
-                        publications={sanitizedConfig.publications}
-                      />
-                    )}
                     {sanitizedConfig.projects.external.projects.length !==
                       0 && (
-                      <ExternalProjectCard
+                      <ResearchCard
                         loading={loading}
                         header={sanitizedConfig.projects.external.header}
                         externalProjects={
@@ -273,13 +259,13 @@ const GitProfile = ({ config }: { config: Config }) => {
                         googleAnalyticId={sanitizedConfig.googleAnalytics.id}
                       />
                     )}
-                    {sanitizedConfig.blog.display && (
+                    {/* {sanitizedConfig.blog.display && (
                       <BlogCard
                         loading={loading}
                         googleAnalyticsId={sanitizedConfig.googleAnalytics.id}
                         blog={sanitizedConfig.blog}
                       />
-                    )}
+                    )} */}
                   </div>
                 </div>
               </div>

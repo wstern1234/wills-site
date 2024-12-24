@@ -100,11 +100,14 @@ const PublicationCard = ({
                   )}
                   {item.authors && (
                     <p className="text-base-content opacity-50 text-sm">
-                      Author: {item.authors}
+                      {item.authors}
                     </p>
                   )}
                   {item.description && (
-                    <p className="mt-2 text-base-content text-opacity-60 text-sm text-justify">
+                    <p
+                      className="mt-2 text-base-content text-opacity-60 text-sm"
+                      style={{ whiteSpace: 'pre-line', textAlign: 'left' }}
+                    >
                       {item.description}
                     </p>
                   )}
@@ -130,7 +133,7 @@ const PublicationCard = ({
                       skeleton({ widthCls: 'w-40', heightCls: 'h-8' })
                     ) : (
                       <span className="text-base-content opacity-70">
-                        Publications
+                        Professional Experience
                       </span>
                     )}
                   </h5>

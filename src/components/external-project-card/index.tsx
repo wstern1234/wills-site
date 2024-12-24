@@ -111,7 +111,10 @@ const ExternalProjectCard = ({
                       </div>
                     </div>
                   )}
-                  <p className="mt-2 text-base-content text-opacity-60 text-sm text-justify">
+                  <p
+                    className="mt-2 text-base-content text-opacity-60 text-sm"
+                    style={{ whiteSpace: 'pre-line', textAlign: 'center' }}
+                  >
                     {item.description}
                   </p>
                 </div>
@@ -126,7 +129,7 @@ const ExternalProjectCard = ({
   return (
     <Fragment>
       <div className="col-span-1 lg:col-span-2">
-        <div className="grid grid-cols-2 gap-6">
+        <div className="grid grid-cols-1 gap-6">
           <div className="col-span-2">
             <div className="card compact bg-base-100 shadow bg-opacity-40">
               <div className="card-body">
@@ -142,7 +145,7 @@ const ExternalProjectCard = ({
                   </h5>
                 </div>
                 <div className="col-span-2">
-                  <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
+                  <div className="grid grid-cols-1 gap-6">
                     {loading ? renderSkeleton() : renderExternalProjects()}
                   </div>
                 </div>

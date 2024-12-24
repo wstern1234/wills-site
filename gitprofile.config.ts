@@ -2,12 +2,12 @@
 
 const CONFIG = {
   github: {
-    username: 'arifszn', // Your GitHub org/user name. (This is the only required config)
+    username: 'wstern1234', // Your GitHub org/user name. (This is the only required config)
   },
   /**
-   * If you are deploying to https://<USERNAME>.github.io/, for example your repository is at https://github.com/arifszn/arifszn.github.io, set base to '/'.
+   * If you are deploying to https://<USERNAME>.github.io/, for example your repository is at https://github.com/USER/USER.github.io, set base to '/'.
    * If you are deploying to https://<USERNAME>.github.io/<REPO_NAME>/,
-   * for example your repository is at https://github.com/arifszn/portfolio, then set base to '/portfolio/'.
+   * for example your repository is at https://github.com/USER/portfolio, then set base to '/portfolio/'.
    */
   base: '/gitprofile/',
   projects: {
@@ -16,87 +16,87 @@ const CONFIG = {
       header: 'Github Projects',
       mode: 'automatic', // Mode can be: 'automatic' or 'manual'
       automatic: {
-        sortBy: 'stars', // Sort projects by 'stars' or 'updated'
-        limit: 8, // How many projects to display.
+        sortBy: 'updated', // Sort projects by 'stars' or 'updated'
+        limit: 6, // How many projects to display.
         exclude: {
           forks: false, // Forked projects will not be displayed if set to true.
-          projects: [], // These projects will not be displayed. example: ['arifszn/my-project1', 'arifszn/my-project2']
+          projects: [], // These projects will not be displayed. example: ['USER/my-project1', 'USER/my-project2']
         },
       },
       manual: {
         // Properties for manually specifying projects
-        projects: ['arifszn/gitprofile', 'arifszn/pandora'], // List of repository names to display. example: ['arifszn/my-project1', 'arifszn/my-project2']
+        projects: ['USER/gitprofile', 'USER/pandora'], // List of repository names to display. example: ['USER/my-project1', 'USER/my-project2']
       },
     },
     external: {
-      header: 'My Projects',
-      // To hide the `External Projects` section, keep it empty.
+      header: 'Research & Volunteering',
       projects: [
         {
-          title: 'Project Name',
+          title: 'Associated Students of the University of California',
           description:
-            'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed euismod, nunc ut.',
+            'Chief Technology Officer\nSep 23 - May 24\n\nLeading technical projects and affairs in the student government senate for UC Berkeley’s student body.',
           imageUrl:
-            'https://img.freepik.com/free-vector/illustration-gallery-icon_53876-27002.jpg',
-          link: 'https://example.com',
+            'https://media.licdn.com/dms/image/v2/C4D0BAQFymoWf0GCpkg/company-logo_200_200/company-logo_200_200/0/1631325482780?e=1743033600&v=beta&t=L_lQxF25gjPXvGr6mvz-VAFVJ4xB8fvWlkEaPZhS_Gs',
+          link: 'https://studentunion.berkeley.edu/',
         },
         {
-          title: 'Project Name',
+          title: 'Lawrence Berkeley National Lab',
           description:
-            'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed euismod, nunc ut.',
+            'Researcher, Programmer\nJun 21 - Aug 21\n\nResearched with an LBNL biophysicist to study pentapeptide structures using AI/ML, serialization, and protein data bank APIs to process large amounts of protein structure data.',
           imageUrl:
-            'https://img.freepik.com/free-vector/illustration-gallery-icon_53876-27002.jpg',
-          link: 'https://example.com',
+            'https://media.licdn.com/dms/image/v2/C4E0BAQFfc1NOEp9DgA/company-logo_200_200/company-logo_200_200/0/1640018826417/lawrence_berkeley_national_laboratory_logo?e=1743033600&v=beta&t=Vgr0jymbn6urIrR2c8qxGNrg7Z4dKPxw-_IyxGC86ks',
+          link: 'https://www.lbl.gov/',
+        },
+        {
+          title: 'NASA',
+          description:
+            'Astrophysics Researcher\nJan 19 - Aug 19\n\nCreated a rocket experiment, sponsored by NASA, to detect phosphorescence caused by solar radiation in low Earth orbit.',
+          imageUrl:
+            'https://media.licdn.com/dms/image/v2/C4D0BAQGRBHWCcaAqGg/company-logo_200_200/company-logo_200_200/0/1630507197379/nasa_logo?e=1743033600&v=beta&t=mOJQvDuGGDFDqq-LFb28oYHMzkbwq8_iwRcRqUtL3nE',
+          link: 'https://www.nasa.gov/wallops/',
         },
       ],
     },
   },
   seo: {
-    title: 'Portfolio of Ariful Alam',
+    title: 'Wills Stern',
     description: '',
     imageURL: '',
   },
   social: {
-    linkedin: 'ariful-alam',
-    twitter: 'arif_szn',
-    mastodon: 'arifszn@mastodon.social',
-    researchGate: '',
-    facebook: '',
-    instagram: '',
-    reddit: '',
-    threads: '',
-    youtube: '', // example: 'pewdiepie'
-    udemy: '',
-    dribbble: '',
-    behance: '',
-    medium: 'arifszn',
-    dev: 'arifszn',
-    stackoverflow: '', // example: '1/jeff-atwood'
-    skype: '',
-    telegram: '',
-    website: 'https://www.arifszn.com',
-    phone: '',
-    email: 'arifulalamszn@gmail.com',
+    linkedin: 'wills-stern',
+    website: 'wills-stern.netlify.app',
+    email: 'willsstern@gmail.com',
   },
   resume: {
     fileUrl:
-      'https://www.w3.org/WAI/ER/tests/xhtml/testfiles/resources/pdf/dummy.pdf', // Empty fileUrl will hide the `Download Resume` button.
+      'https://wills-stern.netlify.app/static/media/William_Stern_Dec23_24.ab844425.pdf', // Empty fileUrl will hide the `Download Resume` button.
   },
   skills: [
-    'PHP',
-    'Laravel',
-    'JavaScript',
-    'React.js',
-    'Node.js',
-    'Nest.js',
-    'MySQL',
-    'PostgreSQL',
-    'Git',
-    'Docker',
-    'PHPUnit',
-    'CSS',
-    'Antd',
-    'Tailwind',
+    'Leadership',
+    'Communication',
+    'Public Speaking',
+    'Python',
+    'JS/HTML/CSS',
+    'C/C++',
+    'Java',
+    'SQL',
+    'Bash/Powershell',
+    'AWS',
+    'Snowflake',
+    'Numpy/Pandas',
+    'GCP',
+    'React',
+    'Gradle',
+    'Automation',
+    'Cybersecurity',
+    'Network Engineering',
+    'AI/ML',
+    'Algorithms',
+    'Data Structures',
+    'APIs',
+    'System Design',
+    'Cloud Computing',
   ],
   experiences: [
     {
@@ -124,42 +124,43 @@ const CONFIG = {
   ],
   educations: [
     {
-      institution: 'Institution Name',
-      degree: 'Degree',
-      from: '2015',
-      to: '2019',
+      institution: 'University of California, Berkeley',
+      degree: 'Computer Science',
+      from: '2022',
+      to: '2025',
     },
     {
-      institution: 'Institution Name',
-      degree: 'Degree',
-      from: '2012',
-      to: '2014',
+      institution: 'University of California, Berkeley',
+      degree: 'Data Science (Business and Industrial Analytics)',
+      from: '2022',
+      to: '2025',
     },
   ],
+  // Work
   publications: [
     {
-      title: 'Publication Title',
-      conferenceName: '',
-      journalName: 'Journal Name',
-      authors: 'John Doe, Jane Smith',
-      link: 'https://example.com',
+      title: 'Software Development Engineer Intern @ AWS',
+      conferenceName: 'Seattle, WA',
+      journalName: 'May 2024 - Aug 2024',
+      authors: '',
+      link: 'https://aws.amazon.com/',
       description:
-        'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.',
+        'Highlights from working on the S3 API team at the Seattle HQ:\n• Designed a new configuration management system with dynamic storage. Used Java, Gradle, Amazon’s internal software tools, and Amazon’s build production pipeline.\n• Worked alongside cybersecurity engineers to protect against potential abuse of S3 buckets and ensure their scope of accessibility was maintained.',
     },
     {
-      title: 'Publication Title',
-      conferenceName: 'Conference Name',
-      journalName: '',
-      authors: 'John Doe, Jane Smith',
-      link: 'https://example.com',
+      title: 'AI Research Engineer Intern @ Mendel AI',
+      conferenceName: 'San Jose, CA',
+      journalName: 'Jun 2023 - Aug 2023',
+      authors: '',
+      link: 'https://www.mendel.ai/',
       description:
-        'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.',
+        'Highlights:\n• Researched/developed new proprietary technologies. Used Snowflake, Google Cloud, NumPy, Parallel Processing, NLP, Algorithms, and Cloud Computing/Storage.\n• Worked on the data pipeline for our AI system as Tech Lead. Used Selenium, Automation, Web Scraping, NLP, Cybersecurity, Algorithms, and System Design.',
     },
   ],
   // Display articles from your medium or dev account. (Optional)
   blog: {
     source: 'dev', // medium | dev
-    username: 'arifszn', // to hide blog section, keep it empty
+    username: 'USER', // to hide blog section, keep it empty
     limit: 2, // How many articles to display. Max is 10.
   },
   googleAnalytics: {
@@ -171,7 +172,7 @@ const CONFIG = {
     snippetVersion: 6,
   },
   themeConfig: {
-    defaultTheme: 'lofi',
+    defaultTheme: 'winter',
 
     // Hides the switch in the navbar
     // Useful if you want to support a single color mode
@@ -234,11 +235,11 @@ const CONFIG = {
   },
 
   // Optional Footer. Supports plain text or HTML.
-  footer: `Made with <a 
-      class="text-primary" href="https://github.com/arifszn/gitprofile"
-      target="_blank"
-      rel="noreferrer"
-    >GitProfile</a> and ❤️`,
+  // footer: `Made with <a 
+  //     class="text-primary" href="https://github.com/USER/gitprofile"
+  //     target="_blank"
+  //     rel="noreferrer"
+  //   >GitProfile</a>`,
 
   enablePWA: true,
 };
