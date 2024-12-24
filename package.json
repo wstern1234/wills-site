@@ -1,17 +1,17 @@
 {
-  "name": "@wstern1234/gitprofile",
+  "name": "@wstern1234/wills-site",
   "description": "Create an automatic portfolio based on GitHub profile",
   "version": "3.1.0",
   "type": "module",
   "license": "MIT",
   "author": "wstern1234",
-  "homepage": "https://wstern1234.github.io/WillsSite",
+  "homepage": "https://wstern1234.github.io/wills-site",
   "repository": {
     "type": "git",
-    "url": "https://github.com/wstern1234/gitprofile.git"
+    "url": "https://github.com/wstern1234/wills-site.git"
   },
   "bugs": {
-    "url": "https://github.com/wstern1234/gitprofile/issues"
+    "url": "https://github.com/wstern1234/wills-site/issues"
   },
   "scripts": {
     "dev": "vite",
@@ -60,6 +60,7 @@
   "keywords": [
     "git-profile",
     "gitprofile",
+    "wills-site",
     "gitportfolio",
     "personal-site",
     "template",
