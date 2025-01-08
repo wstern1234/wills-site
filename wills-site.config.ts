@@ -25,7 +25,7 @@ const CONFIG = {
       },
       manual: {
         // Properties for manually specifying projects
-        projects: ['USER/wills-site', 'USER/pandora'], // List of repository names to display. example: ['USER/my-project1', 'USER/my-project2']
+        projects: ['USER/wills-site'], // List of repository names to display. example: ['USER/my-project1', 'USER/my-project2']
       },
     },
     external: {
