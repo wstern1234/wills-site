@@ -34,7 +34,7 @@ const CONFIG = {
         {
           title: 'Associated Students of the University of California',
           description:
-            'Chief Technology Officer\nSep 23 - May 24\n\nLeading technical projects and affairs in the student government senate for UC Berkeley’s student body.',
+            'Chief Technology Officer\nSep 2023 - May 2024\n\nLeading technical projects and affairs in the student government senate for UC Berkeley’s student body.',
           imageUrl:
             'https://media.licdn.com/dms/image/v2/C4D0BAQFymoWf0GCpkg/company-logo_200_200/company-logo_200_200/0/1631325482780?e=1743033600&v=beta&t=L_lQxF25gjPXvGr6mvz-VAFVJ4xB8fvWlkEaPZhS_Gs',
           link: 'https://studentunion.berkeley.edu/',
@@ -42,7 +42,7 @@ const CONFIG = {
         {
           title: 'Lawrence Berkeley National Lab',
           description:
-            'Researcher, Programmer\nJun 21 - Aug 21\n\nResearched with an LBNL biophysicist to study pentapeptide structures using AI/ML, serialization, and protein data bank APIs to process large amounts of protein structure data.',
+            'Researcher, Programmer\nJun 2021 - Aug 2021\n\nResearched with an LBNL biophysicist to study pentapeptide structures using AI/ML, serialization, and protein data bank APIs to process large amounts of protein structure data.',
           imageUrl:
             'https://media.licdn.com/dms/image/v2/C4E0BAQFfc1NOEp9DgA/company-logo_200_200/company-logo_200_200/0/1640018826417/lawrence_berkeley_national_laboratory_logo?e=1743033600&v=beta&t=Vgr0jymbn6urIrR2c8qxGNrg7Z4dKPxw-_IyxGC86ks',
           link: 'https://www.lbl.gov/',
@@ -50,7 +50,7 @@ const CONFIG = {
         {
           title: 'NASA',
           description:
-            'Astrophysics Researcher\nJan 19 - Aug 19\n\nCreated a rocket experiment, sponsored by NASA, to detect phosphorescence caused by solar radiation in low Earth orbit.',
+            'Astrophysics Researcher\nJan 2019 - Aug 2019\n\nCreated a rocket experiment, sponsored by NASA, to detect phosphorescence caused by solar radiation in low Earth orbit.',
           imageUrl:
             'https://media.licdn.com/dms/image/v2/C4D0BAQGRBHWCcaAqGg/company-logo_200_200/company-logo_200_200/0/1630507197379/nasa_logo?e=1743033600&v=beta&t=mOJQvDuGGDFDqq-LFb28oYHMzkbwq8_iwRcRqUtL3nE',
           link: 'https://www.nasa.gov/wallops/',
@@ -69,8 +69,7 @@ const CONFIG = {
     email: 'willsstern@gmail.com',
   },
   resume: {
-    fileUrl:
-      'https://wills-stern.netlify.app/static/media/William_Stern_Dec23_24.ab844425.pdf', // Empty fileUrl will hide the `Download Resume` button.
+    fileUrl: './William_Stern_Jan7_25.pdf', // 'https://wills-stern.netlify.app/static/media/William_Stern_Jan7_25.184fcff4.pdf', Empty fileUrl will hide the `Download Resume` button.
   },
   skills: [
     'Leadership',
