@@ -23,7 +23,7 @@ import DetailsCard from './details-card';
 import SkillCard from './skill-card';
 import EducationCard from './education-card';
 import { GithubProject } from '../interfaces/github-project';
-import GithubProjectCard from './github-project-card';
+// import GithubProjectCard from './github-project-card';
 import ResearchCard from './external-project-card';
 // import BlogCard from './blog-card';
 import Footer from './footer';
@@ -43,7 +43,7 @@ const WillsSite = ({ config }: { config: Config }) => {
   const [error, setError] = useState<CustomError | null>(null);
   const [loading, setLoading] = useState<boolean>(false);
   const [profile, setProfile] = useState<Profile | null>(null);
-  const [githubProjects, setGithubProjects] = useState<GithubProject[]>([]);
+  const [, setGithubProjects] = useState<GithubProject[]>([]);
 
   const getGithubProjects = useCallback(
     async (publicRepoCount: number): Promise<GithubProject[]> => {
@@ -238,7 +238,7 @@ const WillsSite = ({ config }: { config: Config }) => {
                         publications={sanitizedConfig.publications}
                       />
                     )}
-                    {sanitizedConfig.projects.github.display && (
+                    {/* {sanitizedConfig.projects.github.display && (
                       <GithubProjectCard
                         header={sanitizedConfig.projects.github.header}
                         limit={sanitizedConfig.projects.github.automatic.limit}
@@ -247,7 +247,7 @@ const WillsSite = ({ config }: { config: Config }) => {
                         username={sanitizedConfig.github.username}
                         googleAnalyticsId={sanitizedConfig.googleAnalytics.id}
                       />
-                    )}
+                    )} */}
                     {sanitizedConfig.projects.external.projects.length !==
                       0 && (
                       <ResearchCard

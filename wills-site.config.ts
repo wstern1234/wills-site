@@ -235,8 +235,7 @@ const CONFIG = {
   },
 
   // Optional Footer. Supports plain text or HTML.
-  // footer: `Made with <a 
-  //     class="text-primary" href="https://github.com/USER/wills-site"
+  // footer: `Made with <a class="text-primary" href="https://github.com/wstern1234/wills-site"
   //     target="_blank"
   //     rel="noreferrer"
   //   >wills-site</a>`,
