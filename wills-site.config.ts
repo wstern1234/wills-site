@@ -69,7 +69,8 @@ const CONFIG = {
     email: 'willsstern@gmail.com',
   },
   resume: {
-    fileUrl: './William_Stern_Jan7_25.pdf', // 'https://wills-stern.netlify.app/static/media/William_Stern_Jan7_25.184fcff4.pdf', Empty fileUrl will hide the `Download Resume` button.
+    fileUrl:
+      'https://drive.google.com/file/d/1oE5sd3CL0K_WjPOMDiFFrHFQFAmDuijS/view?usp=sharing', // 'https://wills-stern.netlify.app/static/media/William_Stern_Jan7_25.184fcff4.pdf', Empty fileUrl will hide the `Download Resume` button.
   },
   skills: [
     'Leadership',
