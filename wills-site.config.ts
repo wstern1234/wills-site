@@ -70,7 +70,7 @@ const CONFIG = {
   },
   resume: {
     fileUrl:
-      'https://drive.google.com/file/d/1oE5sd3CL0K_WjPOMDiFFrHFQFAmDuijS/view?usp=sharing', // 'https://wills-stern.netlify.app/static/media/William_Stern_Jan7_25.184fcff4.pdf', Empty fileUrl will hide the `Download Resume` button.
+      'https://drive.google.com/file/d/1oE5sd3CL0K_WjPOMDiFFrHFQFAmDuijS/view?usp=sharing', // 'https://drive.usercontent.google.com/u/0/uc?id=1oE5sd3CL0K_WjPOMDiFFrHFQFAmDuijS&export=download', Empty fileUrl will hide the `Download Resume` button.
   },
   skills: [
     'Leadership',
