@@ -35,21 +35,21 @@ const CONFIG = {
           title: 'Associated Students of the University of California',
           description:
             'Chief Technology Officer\nSep 2023 - May 2024\n\nLeading technical projects and affairs in the student government senate for UC Berkeley’s student body.',
-          imageUrl: '/assets/asuc.jpeg',
+          imageUrl: './assets/asuc.jpeg',
           link: 'https://studentunion.berkeley.edu/',
         },
         {
           title: 'Lawrence Berkeley National Lab',
           description:
             'Researcher, Programmer\nJun 2021 - Aug 2021\n\nResearched with an LBNL biophysicist to study pentapeptide structures using AI/ML, serialization, and protein data bank APIs to process large amounts of protein structure data.',
-          imageUrl: '/assets/lbnl.jpeg',
+          imageUrl: './assets/lbnl.jpeg',
           link: 'https://www.lbl.gov/',
         },
         {
           title: 'NASA',
           description:
             'Astrophysics Researcher\nJan 2019 - Aug 2019\n\nCreated a rocket experiment, sponsored by NASA, to detect phosphorescence caused by solar radiation in low Earth orbit.',
-          imageUrl: '/assets/nasa.jpeg',
+          imageUrl: './assets/nasa.jpeg',
           link: 'https://www.nasa.gov/wallops/',
         },
       ],
