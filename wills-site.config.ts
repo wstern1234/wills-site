@@ -34,7 +34,7 @@ const CONFIG = {
         {
           title: 'Associated Students of the University of California',
           description:
-            'Chief Technology Officer\nSep 2023 - May 2024\n\nLeading technical projects and affairs in the student government senate for UC Berkeley’s student body.',
+            'Chief Technology Officer\nSep 2023 - May 2024\n\nDirected technical projects within the student senate, improving digital infrastructure and leading cross-functional engineering efforts for UC Berkeley’s 40k+ student body.',
           imageUrl:
             'https://raw.githubusercontent.com/wstern1234/WillsPersonalWebsite/refs/heads/master/public/asuc.png',
           link: 'https://studentunion.berkeley.edu/',
@@ -42,7 +42,7 @@ const CONFIG = {
         {
           title: 'Lawrence Berkeley National Lab',
           description:
-            'Researcher, Programmer\nJun 2021 - Aug 2021\n\nResearched with an LBNL biophysicist to study pentapeptide structures using AI/ML, serialization, and protein data bank APIs to process large amounts of protein structure data.',
+            'Machine Learning Research Assistant\nJun 2021 - Aug 2021\n\nConducted AI/ML research on pentapeptide structures, using protein data APIs, serialization methods, and custom algorithms to process large biological datasets.',
           imageUrl:
             'https://raw.githubusercontent.com/wstern1234/WillsPersonalWebsite/refs/heads/master/public/lbnl.png',
           link: 'https://www.lbl.gov/',
@@ -50,7 +50,7 @@ const CONFIG = {
         {
           title: 'NASA',
           description:
-            'Astrophysics Researcher\nJan 2019 - Aug 2019\n\nCreated a rocket experiment, sponsored by NASA, to detect phosphorescence caused by solar radiation in low Earth orbit.',
+            'NASA Student Researcher\nJan 2018 - Aug 2018\n\nAccepted into a highly selective NASA-sponsored rocket launch program to design and build a spaceflight experiment as a solo middle school student (typically reserved for high school class projects). Developed an experiment to detect phosphorescence from solar radiation in low Earth orbit, which launched into space June 21st, 2018.',
           imageUrl:
             'https://raw.githubusercontent.com/wstern1234/WillsPersonalWebsite/refs/heads/master/public/nasa.png',
           link: 'https://www.nasa.gov/wallops/',
@@ -70,35 +70,47 @@ const CONFIG = {
   },
   resume: {
     fileUrl:
-      'https://drive.google.com/file/d/1oE5sd3CL0K_WjPOMDiFFrHFQFAmDuijS/view?usp=sharing', // 'https://drive.usercontent.google.com/u/0/uc?id=1oE5sd3CL0K_WjPOMDiFFrHFQFAmDuijS&export=download', Empty fileUrl will hide the `Download Resume` button.
+      'https://drive.google.com/file/d/1idggAMtjphPHKQmd-ASBV11I26HinhKq/view?usp=sharing', // 'https://drive.usercontent.google.com/u/0/uc?id=1oE5sd3CL0K_WjPOMDiFFrHFQFAmDuijS&export=download', Empty fileUrl will hide the `Download Resume` button.
   },
   skills: [
-    'Leadership',
-    'Communication',
-    'Public Speaking',
     'Python',
-    'JS/HTML/CSS',
-    'C/C++',
     'Java',
+    'C/C++',
     'SQL',
-    'R',
-    'AWS',
-    'Snowflake',
-    'Numpy/Pandas',
-    'GCP',
-    'React',
-    'Gradle',
-    'Automation',
-    'Cybersecurity',
-    'Network Engineering',
-    'AI',
-    'ML',
+    'PyTorch',
+    'Hugging Face',
+    'LangChain',
+    'Transformers',
+    'AI/ML',
     'NLP',
-    'Algorithms',
-    'Data Structures',
-    'APIs',
+    'Retrieval-Augmented Generation (RAG)',
+    'Computer Vision (OpenCV, PIL)',
+    'Model Fine-tuning',
+    'Hyperparameter Tuning',
+    'AWS (S3, Athena, Rekognition)',
+    'Google Cloud',
+    'Docker',
+    'FastAPI',
+    'REST APIs',
+    'Linux/Unix',
+    'Multi-threaded Data Processing',
+    'Scalable Pipeline Design',
+    'CI/CD',
+    'Data Engineering',
+    'ETL Pipelines',
+    'Knowledge Retrieval',
+    'Vector Databases (FAISS)',
+    'PDF/Text Processing',
+    'Automated Testing & Validation',
+    'Error Handling & Fault Tolerance',
+    'Git/GitHub',
+    'Git LFS',
+    'Environment & Dependency Management',
+    'Prompt Engineering',
     'System Design',
-    'Cloud Computing',
+    'Technical Leadership',
+    'Cross-Functional Collaboration',
+    'Documentation Writing',
   ],
   experiences: [
     {
@@ -127,36 +139,42 @@ const CONFIG = {
   educations: [
     {
       institution: 'University of California, Berkeley',
-      degree: 'Computer Science',
-      from: '2022',
-      to: '2025',
+      degree: 'B.A. Computer Science',
+      from: 'Aug 2022',
+      to: 'May 2025',
     },
     {
       institution: 'University of California, Berkeley',
-      degree: 'Data Science (Business and Industrial Analytics)',
-      from: '2022',
-      to: '2025',
+      degree: 'B.A. Data Science (Business & Industrial Analytics)',
+      from: 'Aug 2022',
+      to: 'May 2025',
+    },
+    {
+      institution: 'San Ramon Valley HS / Diablo Valley College',
+      degree: 'A.S. Computer Science (earned while in high school)',
+      from: 'Aug 2018',
+      to: 'June 2022',
     },
   ],
   // Work
   publications: [
     {
-      title: 'Software Development Engineer Intern @ AWS',
+      title: 'Software Development Engineer @ AWS',
       conferenceName: 'Seattle, WA',
-      journalName: 'May 2024 - Aug 2024',
-      authors: '',
+      journalName: 'Full-time: July 25 - Present',
+      authors: 'Intern: May 24 - Aug 24',
       link: 'https://aws.amazon.com/',
       description:
-        'Highlights from working on the S3 API team at the Seattle HQ:\n• Designed a new configuration management system with dynamic storage. Used Java, Gradle, Amazon’s internal software tools, and Amazon’s build production pipeline.\n• Worked alongside cybersecurity engineers to protect against potential abuse of S3 buckets and ensure their scope of accessibility was maintained.',
+        '• Built an AI-powered visualization pipeline, automating executive reporting and reducing analysis time from days to minutes.\n• Developed behavior-driven test coverage across S3 APIs, validating conditional logic and HTTP response handling to ensure reliability and backward compatibility.\n• Strengthened S3 bucket access controls with the cybersecurity team, mitigating misconfiguration risks and improving security compliance.',
     },
     {
-      title: 'AI Research Engineer Intern @ Mendel AI',
+      title: 'AI Research Engineer @ Mendel AI',
       conferenceName: 'San Jose, CA',
-      journalName: 'Jun 2023 - Aug 2023',
+      journalName: 'Intern: Jun 23 - Aug 23',
       authors: '',
       link: 'https://www.mendel.ai/',
       description:
-        'Highlights:\n• Researched/developed new proprietary technologies. Used Snowflake, Google Cloud, NumPy, Parallel Processing, NLP, Algorithms, and Cloud Computing/Storage.\n• Worked on the data pipeline for our AI system as Tech Lead. Used Selenium, Automation, Web Scraping, NLP, Cybersecurity, Algorithms, and System Design.',
+        '\n• Researched and prototyped proprietary methods for knowledge extraction and parallelized processing using cloud computing, NLP, and Selenium.\n• Improved pipeline efficiency and reliability through automation, system design, and cybersecurity practices, accelerating development of AI-powered clinical research tools.',
     },
   ],
   // Display articles from your medium or dev account. (Optional)

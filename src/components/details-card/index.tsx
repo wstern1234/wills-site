@@ -358,7 +358,7 @@ const DetailsCard = ({ profile, loading, social, github }: Props) => {
                   link={`https://stackoverflow.com/users/${social.stackoverflow}`}
                 />
               )}
-              {social?.website && (
+              {/* {social?.website && (
                 <ListItemUnder
                   icon={<FaGlobe />}
                   title="Old website:"
@@ -371,7 +371,7 @@ const DetailsCard = ({ profile, loading, social, github }: Props) => {
                       : social.website
                   }
                 />
-              )}
+              )} */}
               {social?.skype && (
                 <ListItem
                   icon={<FaSkype />}
