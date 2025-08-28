@@ -10,7 +10,7 @@ import {
   FaBuilding,
   FaDev,
   FaFacebook,
-  FaGlobe,
+  //   FaGlobe,
   FaLinkedin,
   FaMastodon,
   FaReddit,
