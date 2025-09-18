@@ -7,7 +7,7 @@
 
 ## About
 
-My name is William Stern and I'm a student at UC Berkeley in my third and final year, graduating with the Class of 2025. I'm double majoring in Computer Science and Data Science with an emphasis in Business.
+My name is William Stern, I'm a software engineer at AWS and a UC Berkeley alum in both Computer Science and Data Science (with an emphasis in Business).
 
 I made this [personal website](https://w-stern.com) to showcase my professional journey, which I built with Vite, host on GitHub Pages, and manage DNS settings with Cloudflare. I designed it with the idea in mind to provide a more dynamic experience than my resume for learning about my work and background. I hope you enjoy my website, as well as all its color themes.
 
