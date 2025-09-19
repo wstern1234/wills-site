@@ -70,7 +70,7 @@ const CONFIG = {
   },
   resume: {
     fileUrl:
-      'https://drive.google.com/file/d/1idggAMtjphPHKQmd-ASBV11I26HinhKq/view?usp=sharing', // 'https://drive.usercontent.google.com/u/0/uc?id=1oE5sd3CL0K_WjPOMDiFFrHFQFAmDuijS&export=download', Empty fileUrl will hide the `Download Resume` button.
+      'https://drive.google.com/file/d/1NL680yqcM9yTBMHnFEdZ-jtYeTNmYpCd/view?usp=sharing', // 'https://drive.usercontent.google.com/u/0/uc?id=1oE5sd3CL0K_WjPOMDiFFrHFQFAmDuijS&export=download', Empty fileUrl will hide the `Download Resume` button.
   },
   skills: [
     'Python',
@@ -81,18 +81,15 @@ const CONFIG = {
     'LangChain',
     'Transformers',
     'NLP',
-    'CV',
-    'AWS (S3',
-    'EC2',
-    'Athena',
-    'Rekognition)',
+    'Computer Vision',
+    'AWS (S3, EC2, Athena)',
     'Google Cloud',
     'Docker',
     'REST APIs',
     'CI/CD',
     'Linux',
     'ETL pipelines',
-    'RAG',
+    'RAG (retrieval-augmented generation)',
     'Vector DBs',
     'Testing & Validation',
     'Error Handling & Fault Tolerance',
