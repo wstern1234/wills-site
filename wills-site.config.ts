@@ -149,7 +149,7 @@ const CONFIG = {
       authors: 'Intern: May 24 - Aug 24',
       link: 'https://aws.amazon.com/',
       description:
-        '• I led the rollout of a worldwide testing and approval system across a multi-region deployment pipeline, providing continuous health checks and automated verification at scale.\n• Built an AI-powered visualization pipeline, automating executive reporting and reducing analysis time from days to minutes.\n• Strengthened S3 bucket security with the cybersecurity team, mitigating misconfiguration risks and improving security compliance.',
+        '• Led the rollout of a worldwide testing and approval system across a multi-region deployment pipeline, providing continuous health checks and automated verification at scale.\n• Built an AI-powered visualization pipeline, automating executive reporting and reducing analysis time from days to minutes.\n• Strengthened S3 bucket security with the cybersecurity team, mitigating misconfiguration risks and improving security compliance.',
     },
     {
       title: 'AI Research Engineer @ Mendel AI',
