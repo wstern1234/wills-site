@@ -93,9 +93,15 @@ const ExternalProjectCard = ({
             <div className="w-full">
               <div className="px-4">
                 <div className="text-center w-full">
-                  <h2 className="font-medium text-center opacity-60 mb-2">
+                  <h2 className="font-medium text-center opacity-60 mb-2 text-blue-500 underline">
                     {item.title}
                   </h2>
+                  <p
+                    className="mt-2 text-base-content text-opacity-60 text-sm"
+                    style={{ whiteSpace: 'pre-line', textAlign: 'center' }}
+                  >
+                    {item.jobTitle}
+                  </p>
                   {item.imageUrl && (
                     <div className="avatar opacity-90">
                       <div className="w-24 h-24 mask mask-squircle">
@@ -114,6 +120,12 @@ const ExternalProjectCard = ({
                   <p
                     className="mt-2 text-base-content text-opacity-60 text-sm"
                     style={{ whiteSpace: 'pre-line', textAlign: 'center' }}
+                  >
+                    {item.tenure}
+                  </p>
+                  <p
+                    className="mt-2 text-base-content text-opacity-60 text-sm"
+                    style={{ whiteSpace: 'pre-line', textAlign: 'left' }}
                   >
                     {item.description}
                   </p>

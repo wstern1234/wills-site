@@ -33,16 +33,20 @@ const CONFIG = {
       projects: [
         {
           title: 'Amazon Web Services (AWS)',
+          jobTitle: 'Software Engineer\n\n',
+          tenure: 'Full-time: Jul 2025 - present\nIntern: May 2024 - Aug 2024',
           description:
-            'Software Engineer\nFull-time: Jul 2025 - present\nIntern: May 2024 - Aug 2024\n\n• Built an end-to-end ML data pipeline integrating model inference with downstream AWS service APIs, automating reporting workflows and cutting analyst cycle time from days to minutes; designed for fault tolerance and observability across distributed infrastructure.\n\n• Extended a multi-region deployment pipeline with automated health checks, continuous integration, and CloudWatch observability, improving reliability for S3’s infrastructure serving global-scale traffic.\n\n• Independently identified an active data exposure vulnerability through open-source reconnaissance, scoped the attack surface, and led cross-functional remediation with the cybersecurity team: hardening bucket policies, enforcing IAM access controls, and fixing security gaps at scale.',
+            '• Independently identified an active data exposure vulnerability through open-source reconnaissance, scoped the attack surface, and led cross-functional remediation with the cybersecurity team: hardening bucket policies, enforcing IAM access controls, and fixing security gaps at scale.\n\n• Built an end-to-end ML data pipeline integrating model inference with downstream AWS service APIs, automating reporting workflows and cutting analyst cycle time from days to minutes; designed for fault tolerance and observability across distributed infrastructure.\n\n• Extended a multi-region deployment pipeline with automated health checks, continuous integration, and CloudWatch observability, improving reliability for S3’s infrastructure serving global-scale traffic.',
           imageUrl:
             'https://raw.githubusercontent.com/wstern1234/WillsPersonalWebsite/refs/heads/master/public/aws.png',
           link: 'https://aws.amazon.com/s3',
         },
         {
           title: 'Mendel.ai',
+          jobTitle: 'AI Research Engineer\n\n',
+          tenure: 'Intern: Jun 2023 - Aug 2023',
           description:
-            'AI Research Engineer Intern\nJun 2023 - Aug 2023\n\n• Collaborated with Applied Scientists to engineer a high-performance proprietary query language for AI agent search tools, achieving 40% faster execution than SQL for large-scale clinical data retrieval.\n\n• Architected large-scale data transformation workflows for medical ontologies, streamlining the ingestion process for fault-tolerant NLP pipelines processing clinical research data.',
+            '• Collaborated with Applied Scientists to engineer a high-performance proprietary query language for AI agent search tools, achieving 40% faster execution than SQL for large-scale clinical data retrieval.\n\n• Architected large-scale data transformation workflows for medical ontologies, streamlining the ingestion process for fault-tolerant NLP pipelines processing clinical research data.',
           imageUrl:
             'https://raw.githubusercontent.com/wstern1234/WillsPersonalWebsite/refs/heads/master/public/mendel_ai_logo.png',
           link: 'https://www.linkedin.com/company/mendel-ai/',
@@ -70,29 +74,35 @@ const CONFIG = {
   },
   resume: {
     fileUrl:
-      'https://drive.google.com/file/d/1yw6xD6txUe7JdoQv27hB30JCN4zmrobY/view?usp=sharing', // Empty fileUrl will hide the `Download Resume` button.
+      'https://drive.google.com/file/d/1yw6xD6txUe7JdoQv27hB30JCN4zmrobY/view?usp=drive_link', // Empty fileUrl will hide the `Download Resume` button.
   },
   skills: [
     'Python',
     'Java',
     'C/C++',
+    'TypeScript',
+    'SQL',
+    'Git',
     'PyTorch',
     'TensorRT',
     'CUDA',
     'Hugging Face',
-    'LangChain',
     'Transformers',
     'NLP',
     'Computer Vision',
-    'AWS (S3, EC2, Athena)',
+    'AWS (S3, EC2, Athena, CDK, CloudFormation, CloudWatch)',
     'Google Cloud',
     'Docker',
     'REST APIs',
     'CI/CD',
     'Linux',
-    'ETL pipelines',
+    'Infrastructure as Code (IaC)',
+    'Distributed Systems',
+    'ML Infrastructure',
+    'System Design',
+    'ETL Pipelines',
     'Vector DBs',
-    'RAG (retrieval-augmented generation)',
+    'RAG (Retrieval-Augmented Generation)',
     'Testing & Validation',
     'Error Handling & Fault Tolerance',
   ],
@@ -149,25 +159,25 @@ const CONFIG = {
     //   authors: 'Intern: May 24 - Aug 24',
       link: 'https://github.com/wstern1234/brigade',
       description:
-        '\nA lightweight benchmarking framework that emulates multi-GPU training behavior on a single consumer GPU, enabling fast experimentation with parallelism strategies without expensive hardware.\n\n• Simulates data-parallel and pipeline-parallel workflows on a single GPU\n• Supports configurable batch partitioning, communication-delay modeling, and step-time profiling\n• Provides a unified CLI for running experiments and comparing parallelization strategies\n• Automatically logs performance traces and produces summarized reports\n• Designed for learning systems-level ML engineering without needing access to multi-node clusters',
+        'A lightweight benchmarking framework that emulates multi-GPU training behavior on a single consumer GPU, enabling fast experimentation with parallelism strategies without expensive hardware.\n\n• Simulates data-parallel and pipeline-parallel workflows on a single GPU\n• Supports configurable batch partitioning, communication-delay modeling, and step-time profiling\n• Provides a unified CLI for running experiments and comparing parallelization strategies\n• Automatically logs performance traces and produces summarized reports\n• Designed for learning systems-level ML engineering without needing access to multi-node clusters',
     },
     {
       title: 'Yardstick',
       link: 'https://github.com/wstern1234/yardstick',
       description:
-        '\nA modular AI performance benchmarking system built to evaluate TensorRT models like ResNet and BERT with dynamic precision, automated logging, and performance summarization.\n\n• GPU-accelerated inference using TensorRT (FP16 and FP32 support)\n• Unified CLI interface for running and comparing benchmarks across models\n• Automatic log parsing and summarization for reproducible performance tracking\n• Demonstrates deep learning systems optimization and software design for automation',
+        'A modular AI performance benchmarking system built to evaluate TensorRT models like ResNet and BERT with dynamic precision, automated logging, and performance summarization.\n\n• GPU-accelerated inference using TensorRT (FP16 and FP32 support)\n• Unified CLI interface for running and comparing benchmarks across models\n• Automatic log parsing and summarization for reproducible performance tracking\n• Demonstrates deep learning systems optimization and software design for automation',
     },
     {
       title: 'Meltwater',
       link: 'https://github.com/wstern1234/meltwater',
       description:
-        '\nA lightweight, self-hosted Python project that exposes a pretrained LLM via FastAPI REST API with JWT authentication and a Gradio interface.\n\n• Endpoints for /login, /generate, and /generate_stream (streaming ChatGPT-style outputs)\n• Fully Dockerized for one-container deployment (API + UI)\n• Supports JWT-secured access and optional hot-reload for development',
+        'A lightweight, self-hosted Python project that exposes a pretrained LLM via FastAPI REST API with JWT authentication and a Gradio interface.\n\n• Endpoints for /login, /generate, and /generate_stream (streaming ChatGPT-style outputs)\n• Fully Dockerized for one-container deployment (API + UI)\n• Supports JWT-secured access and optional hot-reload for development',
     },
     {
       title: 'ML Research',
       link: 'https://github.com/wstern1234/research',
       description:
-        '\nAsthma Diagnosis:\n• Explores early-onset asthma prediction using social and socioeconomic indicators. Implements Logistic Regression, Decision Tree (CART), Random Forest, and XGBoost models with extensive data preprocessing (VIF, PCA, feature scaling, K-fold validation). Achieved high interpretability and addressed challenges of severe class imbalance in medical datasets.\n\nBERT for NLP Classification:\n• Fine-tuned a pretrained BERT model on a custom annotated dataset for text classification. Covers full preprocessing, tokenization, and evaluation pipelines, showcasing applied NLP model development and dataset curation.',
+        'Asthma Diagnosis:\n• Explores early-onset asthma prediction using social and socioeconomic indicators. Implements Logistic Regression, Decision Tree (CART), Random Forest, and XGBoost models with extensive data preprocessing (VIF, PCA, feature scaling, K-fold validation). Achieved high interpretability and addressed challenges of severe class imbalance in medical datasets.\n\nBERT for NLP Classification:\n• Fine-tuned a pretrained BERT model on a custom annotated dataset for text classification. Covers full preprocessing, tokenization, and evaluation pipelines, showcasing applied NLP model development and dataset curation.',
     },
   ],
   // Display articles from your medium or dev account. (Optional)
