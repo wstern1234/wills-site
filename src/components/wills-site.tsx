@@ -232,12 +232,6 @@ const WillsSite = ({ config }: { config: Config }) => {
                 </div>
                 <div className="lg:col-span-2 col-span-1">
                   <div className="grid grid-cols-1 gap-6">
-                    {sanitizedConfig.publications.length !== 0 && (
-                      <WorkCard
-                        loading={loading}
-                        publications={sanitizedConfig.publications}
-                      />
-                    )}
                     {/* {sanitizedConfig.projects.github.display && (
                       <GithubProjectCard
                         header={sanitizedConfig.projects.github.header}
@@ -257,6 +251,12 @@ const WillsSite = ({ config }: { config: Config }) => {
                           sanitizedConfig.projects.external.projects
                         }
                         googleAnalyticId={sanitizedConfig.googleAnalytics.id}
+                      />
+                    )}
+                    {sanitizedConfig.publications.length !== 0 && (
+                      <WorkCard
+                        loading={loading}
+                        publications={sanitizedConfig.publications}
                       />
                     )}
                     {/* {sanitizedConfig.blog.display && (
